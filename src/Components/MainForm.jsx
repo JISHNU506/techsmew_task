@@ -75,7 +75,7 @@ function MainForm() {
       placeholder: "Enter the Gender",
       errorMessage: "It should be Male,Female,Not prefered ",
       label: "Gender",
-      pattern: "(?:m|M|male|Male|f|F|female|Female|FEMALE|MALE|Not prefered",
+      pattern: "(?:m|M|male|Male|f|F|female|Female|FEMALE|MALE|Not prefer)$",
       required: true,
     },
 
