@@ -46,6 +46,7 @@ function MainForm() {
       type: "date",
       placeholder: "Birthday",
       label: "Birthday",
+      required: true,
     },
     {
       id: 4,
