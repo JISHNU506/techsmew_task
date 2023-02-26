@@ -1,5 +1,8 @@
 body{
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background: 
+      url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    background-position: center;
 }
 .emp-profile{
     padding: 3%;
@@ -94,15 +97,15 @@ body{
     color: #0062cc;
 }
 .button_select{
-    background-color: #bfbfbf;
-    color: #00000073;
+    background-color: #878be4;
+    color: #ffff;
     border: 2px solid;
     padding: 1px !important;
     height: 45px;
     cursor: pointer;
 }
 .button_select:hover{
-    background-color: #2f2e4a;
+    background-color: #2f2e4adb;
     color: #ffff;
  
   

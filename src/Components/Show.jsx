@@ -57,10 +57,10 @@ function Show() {
               >
                 <div className="row">
                   <div className="col-md-4">
-                    <label>Name</label>
+                    <label>Name </label>
                   </div>
                   <div className="col-md-8">
-                    <p>{user?.username}</p>
+                    <p>: {user?.username}</p>
                   </div>
                 </div>
                 <div className="row">
@@ -68,7 +68,7 @@ function Show() {
                     <label>Email</label>
                   </div>
                   <div className="col-md-8">
-                    <p>{user?.email}</p>
+                    <p>: {user?.email}</p>
                   </div>
                 </div>
                 <div className="row">
@@ -76,7 +76,7 @@ function Show() {
                     <label>Phone</label>
                   </div>
                   <div className="col-md-8">
-                    <p>{user?.mobilenumber}</p>
+                    <p>: {user?.mobilenumber}</p>
                   </div>
                 </div>
                 <div className="row">
@@ -84,7 +84,7 @@ function Show() {
                     <label>Gender</label>
                   </div>
                   <div className="col-md-8">
-                    <p>{user?.gender}</p>
+                    <p>: {user?.gender}</p>
                   </div>
                 </div>
                 <div className="row">
@@ -92,7 +92,7 @@ function Show() {
                     <label>Date of Birth</label>
                   </div>
                   <div className="col-md-8">
-                    <p>{user?.birthday}</p>
+                    <p>: {user?.birthday}</p>
                   </div>
                 </div>
                 <div className="row">
@@ -100,7 +100,7 @@ function Show() {
                     <label>Address</label>
                   </div>
                   <div className="col-md-8">
-                    <p>{user?.address}</p>
+                    <p>: {user?.address}</p>
                   </div>
                 </div>
                 <div className="row">
@@ -108,7 +108,7 @@ function Show() {
                     <label>City</label>
                   </div>
                   <div className="col-md-8">
-                    <p>{user?.city}</p>
+                    <p>: {user?.city}</p>
                   </div>
                 </div>
                 <div className="row">
@@ -116,7 +116,7 @@ function Show() {
                     <label>State</label>
                   </div>
                   <div className="col-md-8">
-                    <p>{user?.state}</p>
+                    <p>: {user?.state}</p>
                   </div>
                 </div>
               </div>
